@@ -1,0 +1,55 @@
+.UserActions {
+  display: flex;
+  justify-content: space-evenly;
+  width: 40%;
+  padding: 5px;
+  border-radius: 20px;
+  background-color: var(--secondary-color);
+}
+
+
+.Bump {
+  animation: bump 200ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+
+@media (min-width: 576px) {
+ 
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+  .UserActions {
+    width: 17%;
+    padding: 5px;
+  }
+}
+
+@media (min-width: 1200px) {
+ 
+}
+
+@media (min-width: 1400px) {
+
+}

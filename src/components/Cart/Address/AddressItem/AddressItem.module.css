@@ -1,0 +1,46 @@
+.AddressItem {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  height: 250px;
+  width: 100%;
+  padding: 1.5rem;
+  border: 1px solid lightgray;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.AddressActions {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.AddressActions div {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  align-items: center;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .AddressItem {
+    border-radius: 20px;
+  }
+  .AddressActions div {
+    width: 35%;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

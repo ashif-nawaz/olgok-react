@@ -1,0 +1,42 @@
+.Login {
+    height: fit-content;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.LoginInner {
+    padding: 2rem 2rem;
+}
+
+@media (min-width: 576px) {
+ 
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+   
+    .Login {
+        height: 60vh;
+        width: unset;
+    }
+    
+    .LoginInner {
+        padding: 5rem 3rem;
+    }
+  
+}
+
+@media (min-width: 1200px) {
+ 
+}
+
+@media (min-width: 1400px) {
+
+}

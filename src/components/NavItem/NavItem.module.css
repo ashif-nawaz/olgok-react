@@ -1,0 +1,73 @@
+.NavItem {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  width: 33%;
+
+  height: 100%;
+  font-weight: 600;
+  cursor: pointer;
+  padding: 0 10px;
+}
+
+.NavLink {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+
+.NavLinkActive, .NavLink:hover {
+    color: var(--secondary-color);
+}
+
+
+/* .NavItem:hover::after {
+  position: absolute;
+  top: 98%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  border: 15px solid transparent;
+  border-color: transparent transparent white transparent;
+} */
+.NavItem:hover .Content {
+  display: block;
+}
+
+
+.Content {
+  display: none;
+  position: absolute;
+  top: calc(100% + 7px);
+  transform-origin: top;
+  transform-style: preserve-3d;
+  animation: shutter 0.1s ease-in;
+}
+
+@keyframes shutter {
+  from {
+    transform: perspective(350px) rotateX(-50deg);
+  }
+  to {
+    transform: perspective(350px) rotateX(0deg);
+  }
+}
+
+.Rooms {
+  width: 40vw;
+}
+
+.Gallery {
+  width: 30vw;
+}
+
+.Near-By {
+  width: 20vw;
+}

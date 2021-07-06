@@ -1,0 +1,23 @@
+.Card {
+  border-radius: 20px;
+}
+
+.DarkCard {
+  background-color: rgba(100, 100, 100, 0.561);
+  box-shadow: inset 6px 4px 8px rgb(34, 34, 34),
+    inset -6px -4px 8px rgb(34, 34, 34);
+}
+
+.WhiteCard {
+  box-shadow: 0 0 5px rgb(158, 158, 158);
+  background-color: #fff;
+}
+
+.GrayCard {
+  background-color: rgb(233, 233, 233);
+  border: 1px solid rgb(194, 194, 194);
+}
+
+.TransCard {
+  border: 1px solid rgb(194, 194, 194);
+}

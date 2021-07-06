@@ -1,0 +1,12 @@
+.CartTotal {
+    padding: 0 1.5rem 1.5rem 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CartTotal p {
+    font-size: 1.3rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}

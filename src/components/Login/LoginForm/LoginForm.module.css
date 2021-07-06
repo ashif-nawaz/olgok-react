@@ -1,0 +1,48 @@
+.LoginForm {
+    width: 80vw;
+    padding: 2.5rem 2rem 1rem 2rem;
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+}
+
+.Row {
+    margin-bottom: 25px;
+}
+
+.Actions {
+    margin-top: 2rem;
+}
+
+.Actions a {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : whitesmoke;
+}
+
+
+@media (min-width: 576px) {
+ 
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+   
+    .LoginForm {
+        width: 20vw;
+    }
+    
+  
+}
+
+@media (min-width: 1200px) {
+ 
+}
+
+@media (min-width: 1400px) {
+
+}

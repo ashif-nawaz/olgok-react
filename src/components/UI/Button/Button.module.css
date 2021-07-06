@@ -1,0 +1,18 @@
+.Button {
+    background-color: var(--secondary-color);
+    border-radius: 20px;
+    padding: 6px 22px;
+    font-weight: 600;
+    font-size: 1.05rem;
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.Button:disabled {
+    cursor: not-allowed;
+    background-color: whitesmoke;
+    color: gray;
+}

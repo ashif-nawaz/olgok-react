@@ -1,0 +1,104 @@
+.UserIcon svg {
+    width: 15px;
+    height: 15px;
+    color: whitesmoke;
+  }
+
+  
+.UserIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    padding: 4px 8px;
+    position: relative;
+  }
+
+  
+.UserIcon:hover::after {
+    position: absolute;
+    top: calc(2.5rem + 50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
+    content: "";
+    border: 15px solid transparent;
+    border-color: transparent transparent rgb(255, 255, 255) transparent;
+  }
+
+  
+.UserIcon:hover::before {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    right: 0;
+    width: 150%;
+    height: calc(2.5rem - 50% + 7px);
+    transform: translateX(-50%);
+    content: "";
+  }
+  
+  .UserIcon:hover .HoverClass {
+    display: block;
+  }
+  
+
+  @media (min-width: 576px) {
+ 
+  }
+  
+  @media (min-width: 768px) {
+  
+  }
+  
+  @media (min-width: 992px) {
+    .UserIcon svg {
+      width: 20px;
+      height: 20px;
+      color: whitesmoke;
+    }
+  
+    
+  .UserIcon{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+      padding: 4px 8px;
+      position: relative;
+    }
+  
+    
+  .UserIcon:hover::after {
+      position: absolute;
+      top: calc(2.5rem + 50%);
+      left: 50%;
+      transform: translate(-50%, -50%);
+      content: "";
+      border: 15px solid transparent;
+      border-color: transparent transparent rgb(255, 255, 255) transparent;
+    }
+  
+    
+  .UserIcon:hover::before {
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      right: 0;
+      width: 150%;
+      height: calc(2.5rem - 50% + 7px);
+      transform: translateX(-50%);
+      content: "";
+    }
+    
+    .UserIcon:hover .HoverClass {
+      display: block;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+   
+  }
+  
+  @media (min-width: 1400px) {
+  
+  }

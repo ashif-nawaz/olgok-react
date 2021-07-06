@@ -1,0 +1,46 @@
+.Header {
+    position: fixed;
+    top: 0;
+    left: 0%;
+    right: 0%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    background-color: #fff;
+    width: 100%;
+    padding: 0 1rem;
+    box-shadow: 0 0 5px gray;
+    z-index: 10;
+}
+
+
+@media (min-width: 576px) {
+   
+ }
+ 
+ @media (min-width: 768px) {
+ 
+ }
+ 
+ @media (min-width: 992px) {
+    .Header {
+        top: 0.5%;
+        left: 1%;
+        right: 1%;
+        width: 98%;
+        border-radius: 20px;
+        padding: 0 10rem;
+    }
+ }
+ 
+ @media (min-width: 1200px) {
+  
+ }
+ 
+ @media (min-width: 1400px) {
+ 
+ }
+ 
+
+

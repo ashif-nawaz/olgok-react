@@ -1,0 +1,18 @@
+.Centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.W-60 {
+    width: 60%;
+}
+
+.W-75 {
+    width: 75%;
+}
+
+.W-100 {
+    width: 100%;
+}

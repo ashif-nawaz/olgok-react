@@ -1,0 +1,19 @@
+
+.Input input {
+    border: 1px solid lightgray;
+    outline: none;
+    padding: 7px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.Input input:focus {
+    border-color:gray;
+    
+    
+}
+
+.Input label {
+    display: block;
+    margin-bottom: 6px;
+}

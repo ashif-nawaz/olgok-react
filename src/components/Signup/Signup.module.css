@@ -1,0 +1,33 @@
+.Signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  margin-top: 2rem;
+}
+
+.SignupInner {
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .Signup {
+    height: 80vh;
+  }
+
+  .SignupInner {
+    padding: 5rem 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

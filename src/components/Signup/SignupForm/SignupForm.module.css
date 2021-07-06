@@ -1,0 +1,62 @@
+.SignupForm {
+  width: 80vw;
+  padding: 2.5rem 1rem 1rem 1rem;
+  border-radius: 10px;
+  background-color: var(--secondary-color);
+}
+
+.Row {
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.Col {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.Actions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.Actions a {
+  padding: 5px;
+  color: whitesmoke;
+}
+
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .SignupForm {
+    width: 35vw;
+    padding: 2.5rem 2rem 1rem 2rem;
+  }
+  
+  .Row {
+    margin-bottom: 25px;
+    flex-direction: row;
+  }
+  
+  .Col {
+    width: 45%;
+    margin-bottom: unset;
+  }
+  
+
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

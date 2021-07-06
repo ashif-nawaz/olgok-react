@@ -1,0 +1,25 @@
+.WelcomeBanner {
+  background-color: rgb(82, 82, 82);
+  height: 8rem;
+  width: 100%;
+}
+
+
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .WelcomeBanner {
+    height: 25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

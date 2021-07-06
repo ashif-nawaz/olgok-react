@@ -1,0 +1,48 @@
+.Rooms {
+    max-width: 95%;
+    margin: 4rem auto 0 auto;
+    animation: slide-up 0.4s ease;
+}
+
+.Container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 280px);
+    grid-template-rows: repeat(auto-fill, 400px);
+    justify-content: center;
+    row-gap: 2rem;
+    padding: 1rem;
+}
+
+
+@keyframes slide-up {
+    from {
+        transform: translateY(50px);
+    } to {
+        transform: translateY(0);
+    }
+}
+
+
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+    .Rooms {
+        max-width: 95%;
+    }
+    
+    .Container {
+        justify-content: space-between;
+        padding: 4rem;
+    }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

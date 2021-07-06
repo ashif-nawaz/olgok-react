@@ -1,0 +1,35 @@
+.CartContent {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  
+  .CartRoutes {
+    width: 100%;
+  }
+
+
+  @media (min-width: 576px) {
+  }
+  
+  @media (min-width: 768px) {
+  }
+  
+  @media (min-width: 992px) {
+    .CartContent {
+      flex-direction: row;
+    }
+    
+    .CartRoutes {
+      width: 60%;
+    }
+  
+  }
+  
+  @media (min-width: 1200px) {
+  }
+  
+  @media (min-width: 1400px) {
+  }

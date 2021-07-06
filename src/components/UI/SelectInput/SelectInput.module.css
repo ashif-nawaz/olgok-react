@@ -1,0 +1,16 @@
+.Select label {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.Select select {
+  padding: 7px;
+  width: 70%;
+  outline: none;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.Select select .select-items {
+   padding: 5px;
+}

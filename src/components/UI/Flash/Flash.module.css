@@ -1,0 +1,44 @@
+.Message {
+  position: fixed;
+  top: 6rem;
+  left: 50vw;
+  transform: translateX(-50%);
+  width: 80%;
+  padding: 10px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  z-index: 10000;
+  animation: slide 0.1s linear;
+}
+
+.Message div {
+  text-align: center;
+  color: whitesmoke;
+}
+
+@keyframes slide {
+  from {
+    top: -3rem;
+  }
+  to {
+    top: 6rem;
+  }
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+  .Message {
+    width: 20%;
+  }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

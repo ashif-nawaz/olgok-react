@@ -1,0 +1,24 @@
+.Content {
+  display: none;
+  position: absolute;
+  top: calc(2.5rem + 50% + 7px);
+  left: 50%;
+  transform: translateX(-50%);
+  transform-origin: top;
+  transform-style: preserve-3d;
+  animation: shutter 0.08s ease-in;
+  width: 15rem;
+}
+
+.ContentOuter {
+  padding: 1rem;
+}
+
+@keyframes shutter {
+  from {
+    transform: translateX(-50%) perspective(350px) rotateX(-50deg);
+  }
+  to {
+    transform: translateX(-50%) perspective(350px) rotateX(0deg);
+  }
+}

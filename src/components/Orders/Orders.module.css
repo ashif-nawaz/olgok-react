@@ -1,0 +1,35 @@
+.Orders {
+   margin: 2rem 0;
+}
+
+.OrdersInner {
+    padding: 1rem;
+    border-radius: 10px;
+    width: 95%;
+    margin: auto;
+    background-color: #fff;
+}
+
+@media (min-width: 576px) {
+}
+
+@media (min-width: 768px) {
+}
+
+@media (min-width: 992px) {
+    .Orders {
+        margin: 5rem 0;
+     }
+     
+     .OrdersInner {
+         padding: 5rem;
+         border-radius: 15px;
+         width: 75%;
+     }
+}
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 1400px) {
+}

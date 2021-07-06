@@ -1,0 +1,14 @@
+.Greet {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(197, 197, 197);
+}
+
+.WelcomeNote {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.Email {
+  font-size: 0.7rem;
+  columns: gray;
+}
